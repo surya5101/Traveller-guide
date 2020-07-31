@@ -1,0 +1,212 @@
+<html>
+
+<head>
+  <script type="text/javascript" src="slider.js">
+  </script>
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <meta name="viewport" word="width=device-width, initial-scale=1.0">
+
+  <title>Trip_advisor</title>
+</head>
+<style>
+ 
+  div.picture {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 250px;
+    height: 300px;
+    margin-left:70px;
+  }
+  
+  div.picture:hover {
+    border: 1px solid #777;
+  }
+  
+  div.picture img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.word {
+    padding: 30px;
+    text-align: left;
+    color: #191970;
+    text-transform: uppercase;
+  }
+  
+  
+</style>
+
+
+<body>
+  <header>
+    <div class="title">
+      <ul class="communication" style='background-color:lightgrey;'>
+        <li><a href="#">Have a question? Contact us: </a></li>
+        <li><a href="#">0431-2533373</a></li>
+        <li><a href="#">trip_advisor@hotmail.com</a></li>
+        <span class="attach">
+          <li><a class="login" href="logout.php"><i class="fas fa-sign-in-alt"></i> Log-out </a></li>
+          <!--<li><a class="register" href="register.html"><i class="fas fa-unlock" style="color: #191970;"></i>
+              Register</a>-->
+        </span>
+      </ul>
+    </div>
+
+    <div class="base">
+      <ul class="nav">
+        <div class="logo">
+          <li><img src="images\logo.png"></li>
+        </div>
+        <div class="list">
+          <b>
+            <li class="highlight"><a href="main.html">Home</a></li>
+            <li class="menu"><a href="hotel1.html">Hotels</a></li>
+            <li class="menu"><a href="attractions.html">Things to do</a></li>
+            <li class="menu"><a href="res.php">Restaurtants</a></li>
+            <li class="menu"><a href="history.php">Booking History</a></li>
+          </b>
+        </div>
+      </ul>
+    </div>
+
+
+    <br><br>
+    <center>
+      <div class="header" style="color: #191970; background-color: lightgrey; padding-top:30px; padding-bottom:30px;">
+        <h1>FIND YOUR PERFECT DESTINY TO STAY</h1>
+
+      </div>
+    </center>
+    <br><br><br><br>
+    <!--form-->
+    <div  style='width:70%; height:auto; background: url("images/trees.jpg"); '>
+      <form action="hotel.php" method="POST">
+        <div id="main"><br><br>
+          <label for="in"><b style="color:white">CHECK-IN</b></label><br><br>
+          <input type="date" name="cin" style="width:320px; height:6%; border-radius:45px;" required><br><br>
+
+
+          <label for="out"><b style="color:white;">CHECK-OUT</b></label><br><br>
+          <input type="date" id="startdate" name="cout" style="width:320px; height:6%; border-radius:45px;"
+            required /><br><br>
+
+
+          <label for="out"><b style="color:white;">GUESTS</b></label><br><br>
+          <input type="number" id="enddate" name="count" placeholder="5"
+            style="width:320px; height:6%; border-radius:45px;" required /><br><br>
+
+
+          <button type="submit" value="Find vacancies" class="sim"> Find Vacancies </button><br>
+        </div><br><br>
+      </form>
+    </div>
+
+
+
+    <br><br><br><br><br><br>
+    <div class="cover"  >
+     
+      <div class="picture" style="margin-left: 80px;"> 
+        <img src="images\hotel1.jpg" >
+        <div class="word"><b>Royal Hotel</b><br>10,000<br>Nellim, Finland</div>
+      </div>
+     
+
+      <div class="picture">
+        <img src="images\aa.jpg" >
+
+        <div class="word"><b>Snowpoint</b><br>Rs.10,600<br>Rovaniemi, Finland</div>
+      </div>
+    </div>
+
+    <div class="picture">
+      <img src="images\hotel2.jpg" >
+
+      <div class="word"><b>Leisure Palace</b><br>Rs.10,600<br>Rovaniemi, Finland</div>
+    </div>
+  </div>
+
+      <div class="picture">
+        <img src="images\hotel3.jpg" alt="Northern Lights">
+
+        <div class="word"><b>Lapland Paradise</b><br>Rs.11,600<br>Saariselka, Finland</div>
+      </div>
+
+     
+
+      <div class="picture" style="margin-left: 80px;">
+        <img src="images\room1.jpg">
+
+        <div class="word"><b>Blue stone</b><br>Rs.10,600<br>Rovaniemi, Finland</div>
+      </div>
+
+      <div class="picture" >
+        <img src="images\hotel4.jpg" >
+
+        <div class="word"><b>Artic Light Hotel</b><br>Rs.9,600<br>Saariselka, Finland</div>
+      </div>
+
+      <div class="picture" >
+        <img src="images\room.jpg" >
+
+        <div class="word"><b>Artic Light Hotel</b><br>Rs.9,600<br>Saariselka, Finland</div>
+      </div>
+   
+   
+
+    <div class="picture">
+      <img src="images\room3.jpg" >
+      <center><div class="word"><b>Royal Hotel</b><br>10,000<br>Nellim, Finland</div></center>
+    </div>
+  </div>
+</div>
+      
+     
+
+      <br><br><br><br><br>
+    <br><br><br><br><br>
+    <div class="adver">
+      <div class="tag" style='padding-top: 500px;'>
+        <h3>FREQUENTLY ASKED QUESTIONS</h3>
+        <br>
+        <p>Frequently Asked Questions about Lapland hotels<br><br>
+          What are the best hotels near Santa Claus Village?<br><br>
+          Santa Claus Holiday Village, Arctic TreeHouse Hotel, and Lapland Hotels Sky Ounasvaara are some of the most popular hotels for travellers looking to stay near Santa Claus Village. See the full list: Hotels near Santa Claus Village.<br>
+          What are the best hotels near Santa Claus Office?<br><br>
+          Popular hotels close to Santa Claus Office include Santa Claus Holiday Village, Arctic TreeHouse Hotel, and Scandic Pohjanhovi. See the full list: Hotels near Santa Claus Office.<br>
+          What are the best luxury hotels in Lapland?<br><br>
+          Popular luxury hotels in Lapland include Arctic Light Hotel, Wilderness Hotel Inari, and Golden Crown Levi Igloos. See the full list: Lapland Luxury Hotels.<br>
+          Which hotels are closest to Helsinki-Vantaa Airport?<br><br>
+          Popular hotels close to Helsinki-Vantaa Airport include Hilton Helsinki Airport, Scandic Helsinki Airport, and Glo Hotel Airport Vantaa. See the full list: Hotels near (HEL) Helsinki-Vantaa Airport.
+          What are the best hotels near Arktikum?<br><br>
+          A few of the most popular hotels near Arktikum are Hotelli Aakenus, Scandic Rovaniemi City, and Santa's Hotel Santa Claus. See the full list: Hotels near Arktikum.<br>
+          What are the best pet-friendly hotels in Lapland?<br><br>
+          Some of the most popular pet-friendly hotels in Lapland are Hotel YllasHumina, Santa Claus Holiday Village, and Tradition Hotel Kultahovi Inari. See the full list: Pet Friendly Hotels in Lapland.
+        
+        </p>
+      </div>
+    </div>
+  </div>
+
+    <br><br><br>
+    <br><br><br><br><br><br><br><br>
+    <!--Footer-->
+    <footer  style="height: 100px;">
+      <div class="footer-content">
+          <div class="logo">
+          <img src ="images\logo.png"></div>
+         
+        </div>
+  
+      <br><br> 
+      <div class="footer-bottom">
+        &copy;  2020 TripAdvisor LLC All rights reserved
+      
+      </div>
+  </footer>
+</body>
+
+</html>

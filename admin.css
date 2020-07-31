@@ -1,0 +1,143 @@
+.login-box{
+    width: 350px;
+    height: auto;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+.login-box p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-size:20px;
+}
+.login-box input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.login-box input[type="text"], input[type="password"],input[type="number"],input[type="tel"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.login-box input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #1c8adb;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.login-box input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #191970;
+    color: #000;
+}
+
+.login-box a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+}
+.login-box a:hover
+{
+    color: #191970;
+}
+*{
+            margin : 0;
+            padding: 0;
+        }
+        .header{
+            height: 100vh;
+            background: rgba(0,0,100,0.4);
+        }
+        .video-bg{
+            position:absolute;
+            right: 0;
+            bottom: 0;
+            min-width: 100%;
+            min-height: 100%;
+            width: auto;
+            height:auto;
+            z-index: -1;;
+        }
+        @media (max-aspect-ratio:16/9){
+            .video-bg
+            {
+
+                width: auto;
+                height: 100%;
+            }
+        }
+        .logo{
+            margin:25px;
+            height: 70px;
+        }
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100vh;
+        }   
+
+        .welcome{
+            position: relative;
+            text-align: center;
+            font-family: Lato, sans-serif;
+            color: #fff;
+            top: 3 px;
+           
+        }
+        .welcome h1{
+           
+            font-size: 40px;
+            font-weight: 100;
+            letter-spacing: 5px;
+            margin-bottom:10px;  
+        }
+
+        .btn {
+            font-size: 18px;
+            color:white;
+            margin: 5px;
+            padding:7px 22px;
+            text-decoration: none;
+            background-color: transparent;    
+            border: 1px solid white;
+        }
+        .btn-register{
+            border: 1px solid rgb(33, 32, 39);
+            
+         }
+        .btn-register:hover{
+            border: 3px solid white;
+            transition: 0.5s;
+
+        }
+         .btn-login:hover{
+            border: 3px solid rgb(33, 32, 39);
+            transition: 0.5s;
+
+        }
+

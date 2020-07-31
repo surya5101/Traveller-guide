@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        .side{
+            display: flex;
+            flex-direction: row;
+            padding-top: 10px;
+            height: 200px;
+            width: 200px;
+            background-color: rgb(233, 230, 230);
+            color: #191970;
+            flex-wrap: wrap;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="form">
+        <div class="side" >
+            <br> <br><center style='padding:20px'><i class="fas fa-lightbulb" style="height: 100px; width:auto;"></i></center>
+            Consider a holiday rental and get more space and privacy.
+        </div>
+        <div class='form-1'>
+            <form action="hotel.php" method="POST">
+                <div id="main">
+                  <label for="in"><b style="color:darkslategray;">Check in</b></label><br><br>
+                  <input type="date" name="cin" style="width:17%; height:6%; border-radius:45px;" required><br><br>
+        
+        
+                  <label for="out"><b style="color:darkslategray;">Check out</b></label><br><br>
+                  <input type="date" id="startdate" name="cout" style="width:17%; height:6%; border-radius:45px;"
+                    required /><br><br>
+        
+        
+                  <label for="out"><b style="color:darkslategray;">Guests No</b></label><br><br>
+                  <input type="number" id="enddate" name="count" placeholder="5"
+                    style="width:17%; height:6%; border-radius:45px;" required /><br><br>
+        
+        
+                  <button type="submit" value="Find vacancies" class="sim"> Find Vacancies </button><br>
+                </div>
+              </form>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,122 @@
+body {
+    font-family: "Lato", sans-serif;
+  }
+  
+  .sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(12, 14, 17);
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  .logo{
+    margin:10px;
+    height: 70px;
+}
+  
+  .sidenav a,button{
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    border:none;
+    background-color: transparent;
+    width: 200px;
+  }
+  
+  .sidenav a,button:hover {
+    color: #f1f1f1;
+    background-color: grey ;
+  }
+  
+  .sidenav a{
+    padding-left: 73px;
+  }
+
+  
+  .main {
+    margin-left: 160px;
+    font-size: 28px; 
+    padding: 0px 10px;
+    
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+
+/* Form view*/
+
+.login-box{
+  width: 350px;
+  height: auto;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  box-sizing: border-box;
+  padding: 70px 30px;
+}
+
+h1{
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 22px;
+}
+.login-box p{
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  font-size:20px;
+}
+.login-box input{
+  width: 100%;
+  margin-bottom: 20px;
+}
+.login-box input[type="text"], input[type="password"],input[type="number"],input[type="tel"]
+{
+  border: none;
+  border-bottom: 1px solid rgb(255, 255, 255);
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: #fff;
+  font-size: 16px;
+  
+}
+.login-box input[type="submit"]
+{
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #a14235;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+}
+.login-box input[type="submit"]:hover
+{
+  cursor: pointer;
+  background: rgb(122, 46, 18) ;
+  color:black;
+}
+
+.login-box a{
+  text-decoration: none;
+  font-size: 14px;
+  color: #fff;
+}
+.login-box a:hover
+{
+  color:#191970;
+}
